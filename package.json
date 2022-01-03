@@ -1,0 +1,29 @@
+{
+  "name": "use-stored-object",
+  "version": "0.1.2",
+  "license": "MIT",
+  "source": "src/index.ts",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "files": [
+    "dist/**/*",
+    "src/**/*"
+  ],
+  "scripts": {
+    "build": "parcel build",
+    "watch": "parcel watch"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.0.1",
+    "@parcel/transformer-typescript-types": "^2.0.1",
+    "@types/lodash-es": "^4.17.5",
+    "@types/react": "^17.0.38",
+    "parcel": "^2.0.1",
+    "typescript": "^4.5.4"
+  }
+}
